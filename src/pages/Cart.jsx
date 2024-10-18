@@ -34,7 +34,7 @@ const Cart = () => {
       {/* Check if the cart is empty */}
       {cartData.length === 0 ? (
         <div className="text-center text-lg text-gray-500">
-          <p>Your cart is empty</p>
+          <p>Your Forever cart is empty</p>
           <button
             onClick={() => navigate('/products')}
             className="mt-5 bg-black text-white px-8 py-3"
