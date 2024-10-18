@@ -36,7 +36,7 @@ const Cart = () => {
         <div className="text-center text-lg text-gray-500">
           <p>Your Forever cart is empty</p>
           <button
-            onClick={() => navigate('/products')}
+            onClick={() => navigate('/collection')}
             className="mt-5 bg-black text-white px-8 py-3"
           >
             Shop Now
